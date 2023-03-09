@@ -2,21 +2,10 @@
 #include "main.h"
 #include <stdio.h>
 
-int _printf(const char *format, ...);
-{
-		int i = c
-	while(format[i] != '\0')
-	{	
-		_putchar(format[i]
-			i++;
-			}
-}	
-{	
-	int x = s
-	while(x != null)
-	{
-		_putchar(s)
-		x++
-	}
+int _printf(const char *format, ...)
+int i = 0;
+while(format[i] != '\0')
+{	_putchar(format[i]);
+	i++;
 }
- 
+return(i);
