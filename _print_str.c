@@ -17,5 +17,5 @@ int _print_str(va_list args)
 		_putchar(str[k]);
 		k++;
 	}
-	return (0);
+	return (k);
 }
