@@ -13,6 +13,5 @@ int (*_selec_func(char c))(va_list)
 		return (_print_char);
 	if (c == 's')
 		return (_print_str);
-
 	return (NULL);
 }
