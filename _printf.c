@@ -13,9 +13,8 @@
  */
 int _printf(const char *format, ...)
 {
-	int  i = 0, k = 0;
+	int  i = 0;
 	int n_displayed = 0;
-	char *str = NULL;
 	va_list args;
 	int (*func)(va_list);
 
